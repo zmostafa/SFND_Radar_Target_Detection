@@ -222,5 +222,5 @@ RDM( : , union(1 : (Td + Gd), lc - (Td + Gd - 1) : lc)) = 0;
 % *%TODO* :
 %display the CFAR output using the Surf function like we did for Range
 %Doppler Response output.
-figure,surf(doppler_axis,range_axis,'replace this with output');
+figure,surf(doppler_axis,range_axis,RDM);
 colorbar;
